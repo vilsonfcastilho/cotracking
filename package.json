@@ -1,0 +1,11 @@
+{
+  "name": "cotracking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vilsonfcastilho/cotracking.git",
+  "author": "vilsonfcastilho <vilsonfcastilho@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
