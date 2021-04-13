@@ -6,7 +6,7 @@
   "author": "vilsonfcastilho <vilsonfcastilho@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/cotracking.ts"
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/index.ts"
   },
   "devDependencies": {
     "@types/isomorphic-fetch": "^0.0.35",
