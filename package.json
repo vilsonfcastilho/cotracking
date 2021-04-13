@@ -5,7 +5,12 @@
   "repository": "https://github.com/vilsonfcastilho/cotracking.git",
   "author": "vilsonfcastilho <vilsonfcastilho@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/cotracking.ts"
+  },
   "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.35",
+    "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "eslint": "^7.24.0",
@@ -15,6 +20,11 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1",
+    "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "isomorphic-fetch": "^3.0.0"
   }
 }
