@@ -10,7 +10,7 @@ class Track {
   hour: string | null;
 
   constructor(
-    status: string | null,
+    status: string,
     origin: string | null,
     destiny: string | null,
     date: string | null,
