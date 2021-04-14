@@ -49,7 +49,7 @@ See how to contribute in [CONTRIBUTIND.md](./CONTRIBUTING.md)
 
 ## 💼 License
 
-cotracking is fully open and is under MIT license
+cotracking is fully open and is under [MIT](./LICENSE) license
 
 ---
 
