@@ -12,7 +12,7 @@ class CoTracking {
   private verifyOrderCode = (code: string): boolean =>
     /^[A-Z]{2}[0-9]{9}[A-Z]{2}$/.test(code);
 
-  private formatTrack = (data: string): ITrack => {
+  private formatTrack = (data: string) => {
     const replaceData = data.replace(/\n|\t|\|/g, '#');
     const newData = replaceData.split('#').filter(dt => dt !== '');
 
@@ -25,7 +25,16 @@ class CoTracking {
       return acc;
     }, {} as ITrack);
 
-    return lis;
+    const track = {
+      status: lis.status,
+      local: lis.local,
+      origin: lis.origem,
+      destiny: lis.destino,
+      date: lis.data,
+      hour: lis.hora,
+    };
+
+    return track;
   };
 
   public track = async (code: string | string[]): Promise<Order | Order[]> => {
@@ -56,10 +65,11 @@ class CoTracking {
 
             const track = new Track(
               trackUl.status,
-              trackUl.origem,
-              trackUl.destino,
-              trackUl.data,
-              trackUl.hora,
+              trackUl.local,
+              trackUl.origin,
+              trackUl.destiny,
+              trackUl.date,
+              trackUl.hour,
             );
 
             return track;
@@ -101,10 +111,11 @@ class CoTracking {
 
         const track = new Track(
           trackUl.status,
-          trackUl.origem,
-          trackUl.destino,
-          trackUl.data,
-          trackUl.hora,
+          trackUl.local,
+          trackUl.origin,
+          trackUl.destiny,
+          trackUl.date,
+          trackUl.hour,
         );
 
         return track;
