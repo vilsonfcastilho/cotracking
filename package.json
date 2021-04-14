@@ -6,7 +6,7 @@
   "types": "lib",
   "repository": "https://github.com/vilsonfcastilho/cotracking.git",
   "author": "vilsonfcastilho <vilsonfcastilho@gmail.com>",
-  "keywords": ["correios", "rastreio", "track"],
+  "keywords": ["correios", "rastreio", "track", "tracking"],
   "license": "MIT",
   "scripts": {
     "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/index.ts",

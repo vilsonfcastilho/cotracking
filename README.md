@@ -14,21 +14,20 @@ A JavaScript library with TypeScript support for tracking orders through Correio
 
 ## 👨🏻‍💻 Examples
 
-Example tracking a code:
+Tracking a code with JavaScript:
 ```js
-  import cotracking from 'cotracking';
+  const { cotracking } = require('cotracking');
 
   const example = async () => {
     const track = await cotracking.track('JT124720455BR');
 
     console.log(track); //response -> Order{code: string, tracks: Track[]}
-
   };
 
   example();
 ```
 
-Example tracking many codes:
+Tracking many codes with TypeScript:
 ```js
   import cotracking from 'cotracking';
 
