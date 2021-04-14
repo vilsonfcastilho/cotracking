@@ -2,13 +2,15 @@
   "name": "cotracking",
   "version": "1.0.0",
   "description": "A JavaScript library with TypeScript support for tracking orders through Correios(BR)",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib",
   "repository": "https://github.com/vilsonfcastilho/cotracking.git",
   "author": "vilsonfcastilho <vilsonfcastilho@gmail.com>",
   "keywords": ["correios", "rastreio", "track"],
   "license": "MIT",
   "scripts": {
-    "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/index.ts"
+    "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@types/isomorphic-fetch": "^0.0.35",
