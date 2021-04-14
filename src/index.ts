@@ -1,5 +1,5 @@
 import CoTracking from './CoTracking';
 
-const cotracking = new CoTracking();
+export const cotracking = new CoTracking();
 
-module.exports.cotracking = cotracking;
+export default cotracking;
