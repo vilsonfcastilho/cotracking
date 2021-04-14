@@ -43,7 +43,7 @@ Example tracking many codes:
 
 ## 📎 Contributing
 
-See how to contribute in [CONTRIBUTIND.md](./CONTRIBUTING.md)
+See how to contribute in [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 >Any questions or suggestions, send me a message: vilsonfcastilho@gmail.com
 
