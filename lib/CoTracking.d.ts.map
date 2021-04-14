@@ -1,1 +1,0 @@
-{"version":3,"file":"CoTracking.d.ts","sourceRoot":"","sources":["../src/CoTracking.ts"],"names":[],"mappings":"AAIA,OAAO,KAAK,MAAM,kBAAkB,CAAC;AAMrC,cAAM,UAAU;IACd,OAAO,CAAC,eAAe,CACmB;IAE1C,OAAO,CAAC,WAAW,CAcjB;IAEK,KAAK,SAAgB,MAAM,GAAG,MAAM,EAAE,KAAG,QAAQ,KAAK,GAAG,KAAK,EAAE,CAAC,CAsFtE;CACH;AAED,eAAe,UAAU,CAAC"}
