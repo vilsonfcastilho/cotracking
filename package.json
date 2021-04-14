@@ -1,6 +1,6 @@
 {
   "name": "cotracking",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A JavaScript library with TypeScript support for tracking orders through Correios(BR)",
   "main": "lib/index.js",
   "types": "lib",
